@@ -24,4 +24,4 @@
 5. Label the data set with descriptive variable names.
 6. Create a tidy data set with an average of each variable for each activity and each subject.
 
-##### The output of this R code is a tidy data set (tidyData.txt and tidyData.csv). More details about the data sets used in the script can be found in the code book.
+##### The output of this R script is a tidy data set (tidyData.txt and tidyData.csv). More details about the data sets used in the script can be found in the code book.
