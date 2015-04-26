@@ -19,9 +19,10 @@
 ##### The R script takes the following steps:
 1. Read the training and test data sets.
 2. Merge the training and test data sets to create one data set.
-3. Extract mean and standard deviation values for each measurement.
+3. All feature columns not containing "mean" or "std" are removed from the merged data set.
 4. Use descriptive activity names to label the activities.
 5. Label the data set with descriptive variable names.
-6. Create a tidy data set with an average of each variable for each activity and each subject.
+6. The activity column is converted from integer to factor using names of 6 activities.
+7. Create a tidy data set with an average of each variable for each activity and each subject.
 
 ##### The output of this R script is a tidy data set (tidyData.txt and tidyData.csv). More details about the data sets used in the script can be found in the code book.
