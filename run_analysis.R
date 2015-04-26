@@ -39,7 +39,7 @@ subjectID <- rbind(trainingSubject, testSubject)
 activity <- rbind(trainingLabels, testLabels)
 twoSets <- cbind(subjectID, activity, twoSets)
 
-## label activities according to "activity_labels.txt"
+## Label activities according to "activity_labels.txt"
 activityLabels <- read.table("activity_labels.txt")
 activityLabels$V2 <- as.character(activityLabels$V2)
 twoSets$Activity <- factor(twoSets$Activity, labels = activityLabels$V2)
