@@ -20,14 +20,7 @@
 8. activity_labels.txt  
    IDs and names of 6 activities
 
-##### Description of variables used in the script
-1. trainingSet to read X_train.txt
-2. trainingLabels to read y_train.txt
-3. testSet to read X_test.txt
-4. testLabels to read y_test.txt
-
-
-##### The R script takes the following steps:
+##### Processing steps in the script:
 1. Read the training and test data sets.
 2. Merge the training and test data sets to create one data set.
 3. Extract mean and standard deviation values for each measurement.
@@ -35,4 +28,8 @@
 5. Label the data set with descriptive variable names.
 6. Create a tidy data set with an average of each variable for each activity and each subject.
 
-##### The output of this R code is a tidy data set (tidyData.txt and tidyData.csv). More details about the data set and the variables can be found in the code book.
+##### Description of the output (tidyData.txt and tidyData.csv)
+1. Each subject (volunteer) has 6 rows corresponding 6 different activities.
+2. Since there are 30 subjects (volunteers) in total, there are 180 rows in total.
+3. Two files, txt and csv files, are created for easy verification of txt file.
+
