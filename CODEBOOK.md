@@ -3,21 +3,21 @@
 
 ##### Description of data files used:
 
-1. X_train.txt:
+1. X_train.txt  
    Training set containing 7352 observations of the 561 features for 21 volunteers
-2. y_train.txt:
+2. y_train.txt  
    Training labels corresponding to a vector of 7352 integers denoting the ID of the activity associated with each observation in X_train.txt   
-3. X_test.txt:
+3. X_test.txt  
    Test set containing 2947 observations of the 561 features for 9 volunteers
-4. y_test.txt:
+4. y_test.txt  
    Training labels corresponding to a vector of 2947 integers denoting the ID of the activity associated with each observation in X_test.txt
-5. subject_train.txt:
+5. subject_train.txt  
    Subject IDs corresponding to a vector of 7352 integers denoting the IDs of the volunteers who performed the activities in X_train.txt
-6. subject_test.txt:
+6. subject_test.txt  
    Subject IDs corresponding to a vector of 2947 integers denoting the IDs of the volunteers who performed the activities in X_test.txt
-7. features.txt:
+7. features.txt  
    Names of 561 features
-8. activity_labels.txt:
+8. activity_labels.txt  
    IDs and names of 6 activities
 
 ##### Description of variables used in the script
